@@ -1,0 +1,20 @@
+:root {
+/*bg color*/
+--background-color-main: #ffffff;
+--background-color-dark: #2F303A;
+--background-color-sect: #F5F4FA;
+--background-color-box: #EEEEEE;
+--background-color-bt: #F5F4FA;
+--background-color-bt-accent: #2196F3;
+--background-color-bt-activ: #188CE8;
+--background-color-line: #ECECEC;
+/*text color*/
+--color-text-main: #757575;
+--color-text-topic: #212121;
+--color-text-hero: #FFFFFF;
+--color-text-dark: #000000;
+--color-text-accent: #2196F3;
+--color-text-adress: rgba(255, 255, 255, 0.6);
+
+
+}
