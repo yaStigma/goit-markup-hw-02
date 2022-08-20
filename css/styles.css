@@ -19,6 +19,7 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 }
+/*common styles*/
 
 body {
   background: var(--background-color-main);
@@ -31,6 +32,18 @@ body {
 }
 .list {
   list-style: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /*logo*/
@@ -121,6 +134,7 @@ body {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 .hero-bt:hover,
 .hero-bt:focus {
@@ -129,18 +143,6 @@ body {
 
 /*section advantage*/
 
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 .advantage-title {
   color: var(--color-text-topic);
   font-weight: 700;
@@ -185,4 +187,37 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
+}
+/*portfolio*/
+.filter {
+}
+.filter-bt {
+  background-color: var(--background-color-bt);
+  color: var(--color-text-topic);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+.filter-bt:hover,
+.filter-bt:focus {
+  background-color: var(--background-color-bt-accent);
+  color: var(--color-text-hero);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.project-name {
+  color: var(--color-text-topic);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.project-filter {
+  font-size: 16px;
+  line-height: calc(30 / 16);
 }
