@@ -93,5 +93,96 @@ body {
 }
 .link-address:hover,
 .link-address:focus {
-    color: var(--color-text-accent);
+  color: var(--color-text-accent);
+}
+/*studio*/
+
+/*section hero*/
+
+.hero {
+  background-color: var(--background-color-dark);
+}
+.hero-title {
+  color: var(--color-text-hero);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-bt {
+  background-color: var(--background-color-bt-accent);
+  color: var(--color-text-hero);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-bt:hover,
+.hero-bt:focus {
+  background-color: var(--background-color-bt-activ);
+}
+
+/*section advantage*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.advantage-title {
+  color: var(--color-text-topic);
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+.advatage-text {
+  line-height: calc(24 / 14);
+}
+
+/*section work*/
+.work-title {
+  color: var(--color-text-topic);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+
+/*section team*/
+.team {
+  background-color: var(--background-color-sect);
+}
+.team-title {
+  color: var(--color-text-topic);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+}
+.list-box {
+  background-color: var(--background-color-main);
+}
+.team-member {
+  color: var(--color-text-topic);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+.team-function {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
 }
